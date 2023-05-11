@@ -1,0 +1,9 @@
+<h1 style='color:orange'>hello zhiqing</h1>
+<h2>你好</h2>
+<img id='i1' src='https://img2.baidu.com/it/u=860099616,963140587&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=666'>
+<button id='b1'>点我</button>
+<script>
+document.getElementById('b1').onclick=function(){
+    document.getElementById('i1').src='https://img1.baidu.com/it/u=1668037454,3906738059&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=666'
+}
+</script>
